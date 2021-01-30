@@ -1,30 +1,19 @@
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-  crossorigin="anonymous"
-/>
-
 <style>
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 li {
   list-style: none;
 }
-
 a {
   color: #000;
   text-decoration: none;
 }
-
 #page-wrapper {
   position: relative;
 }
-
 header {                           
   position: fixed;
   top: 0;
@@ -35,12 +24,10 @@ header {
   align-items: center;
   background-color: #eee;
 }
-
 .logo {
   width: 60vw;
   background: crimson;
 }
-
 img {
   /* width: 100%; */
   /* height: 100%; */
@@ -51,11 +38,9 @@ img {
   text-align: center;
   margin-left: 20px;
 }
-
 nav {
   font-weight: 400;
 }
-
 ul {
   background: gold;
   width: 35vw;
@@ -63,14 +48,11 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
-
-
 @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
   }
 }
-
 @media (max-width: 650px) {
   .logo {
     margin-top: 15px;
@@ -83,7 +65,6 @@ ul {
     margin: 0 auto;
   }
 }
-
 @media (max-width: 650px) {
   nav {
     margin-top: 10px;
@@ -98,18 +79,12 @@ ul {
     padding-bottom: 5px;
   }
 }
-
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
   }
 }
-
-p{
-  height: 200%;
-}
 </style>
-
 
 <div id="page-wrapper">
   <header id="header">
@@ -130,5 +105,3 @@ p{
     </nav>
   </header>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p> I am..... </p>
